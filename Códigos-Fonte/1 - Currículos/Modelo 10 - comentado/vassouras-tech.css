@@ -1,0 +1,42 @@
+/* Estilos gerais para o documento */
+body {
+    font-family: 'Roboto', sans-serif; /* Define a família da fonte. Roboto é moderna e amplamente utilizada */
+    background-color: #1E2125; /* Define uma cor de fundo escura para dar ênfase ao conteúdo central */
+    color: #BFC5C9; /* Define uma cor de texto que se destaca bem no fundo escuro */
+    padding: 40px 0; /* Espaçamento no topo e fundo do body */
+}
+
+/* Estilos para o container principal */
+.main-container {
+    width: 80%; /* Define a largura como 80% da largura da viewport */
+    max-width: 750px; /* Define uma largura máxima */
+    margin: 0 auto; /* Centraliza o container na horizontal */
+    background-color: #272B30; /* Cor de fundo para o container principal */
+    border-radius: 12px; /* Borda arredondada para o container principal */
+    padding: 20px; /* Espaçamento interno do container */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra ao container */
+}
+
+/* Estilos para o cabeçalho do perfil */
+.profile-header {
+    text-align: center; /* Centraliza o conteúdo no cabeçalho */
+    margin-bottom: 30px; /* Espaçamento abaixo do cabeçalho */
+    border-bottom: 3px solid #3D8EF7; /* Uma linha colorida para separar o cabeçalho das outras seções */
+    padding-bottom: 20px; /* Espaçamento abaixo da borda */
+}
+
+/* Estilos para os títulos das seções */
+h2 {
+    color: #3D8EF7; /* Cor azul para os títulos das seções para dar ênfase */
+    margin-bottom: 15px; /* Espaçamento abaixo dos títulos */
+}
+
+/* Estilos para as listas */
+ul {
+    list-style-type: none; /* Remove os marcadores padrão de lista */
+    padding: 0; /* Remove o padding padrão da lista */
+}
+
+ul li {
+    margin-bottom: 10px; /* Espaçamento abaixo de cada item da lista */
+}

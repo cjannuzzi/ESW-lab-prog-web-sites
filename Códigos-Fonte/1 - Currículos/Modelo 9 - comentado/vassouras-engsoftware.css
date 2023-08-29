@@ -1,0 +1,54 @@
+/* Definições gerais para o documento */
+body {
+    font-family: 'Arial', sans-serif; /* Define a família da fonte utilizada no documento */
+    background-color: #2C3E50; /* Define a cor de fundo do documento */
+    color: #EAEAEA; /* Define a cor padrão do texto */
+    padding: 20px; /* Define um espaçamento ao redor do documento */
+}
+
+/* Estiliza o container principal */
+.container {
+    max-width: 600px; /* Define uma largura máxima para o container */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    padding: 30px; /* Define um espaçamento interno para o container */
+    background-color: #34495E; /* Define a cor de fundo do container */
+    border-radius: 15px; /* Arredonda os cantos do container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil ao container */
+}
+
+/* Estiliza o cabeçalho */
+header {
+    text-align: center; /* Centraliza o conteúdo do cabeçalho horizontalmente */
+    margin-bottom: 30px; /* Adiciona uma margem abaixo do cabeçalho */
+}
+
+header h1 {
+    font-size: 32px; /* Define o tamanho da fonte do nome */
+    margin-bottom: 10px; /* Adiciona uma margem abaixo do nome */
+}
+
+header h3 {
+    font-style: italic; /* Adiciona um estilo itálico ao título */
+    color: #E67E22; /* Define a cor do título */
+}
+
+/* Estiliza cada seção individual */
+section {
+    margin-bottom: 20px; /* Adiciona uma margem abaixo de cada seção */
+}
+
+section h2 {
+    border-bottom: 2px solid #E67E22; /* Adiciona uma linha laranja abaixo do título da seção */
+    padding-bottom: 5px; /* Adiciona um pequeno espaçamento abaixo do título da seção */
+    margin-bottom: 15px; /* Adiciona uma margem abaixo do título da seção */
+    font-size: 24px; /* Define o tamanho da fonte do título da seção */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o espaçamento padrão da lista */
+}
+
+ul li {
+    margin-bottom: 10px; /* Adiciona uma margem abaixo de cada item da lista */
+}

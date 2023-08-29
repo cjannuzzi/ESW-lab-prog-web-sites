@@ -1,0 +1,2 @@
+a. Crie 03 currículos seu utlizando html e css.
+b. Faça upload para seu Github.
