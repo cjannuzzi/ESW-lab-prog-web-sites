@@ -1,0 +1,63 @@
+/* Estilo base para todo o documento */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 40px;
+    color: #555;
+    background-color: #f7f7f7;
+}
+
+/* Estiliza o cabeçalho do currículo */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para a seção de perfil */
+.perfil {
+    display: flex;            /* Usa flexbox para layout em linha */
+    align-items: center;      /* Alinha os itens verticalmente no centro */
+    gap: 20px;                /* Espaçamento entre a imagem e o conteúdo textual */
+}
+
+/* Estilo para a imagem de perfil */
+.perfil-image img {
+    width: 150px;             /* Define a largura da imagem */
+    height: 150px;            /* Define a altura da imagem */
+    border-radius: 50%;       /* Arredonda a imagem para formato circular */
+}
+
+/* Estilo para o conteúdo textual do perfil */
+.perfil-content {
+    flex-grow: 1;             /* Permite que o conteúdo textual ocupe todo o espaço restante na linha */
+}
+
+
+/* Estilo para seções individuais */
+section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para os links dentro da lista de projetos */
+.projetos a {
+    color: #007BFF; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+}
+
+.projetos a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
+
+/* Estilo para o rodapé */
+footer {
+    margin-top: 40px;
+    text-align: center; /* Centraliza o texto */
+    font-style: italic; /* Fonte em itálico */
+}
