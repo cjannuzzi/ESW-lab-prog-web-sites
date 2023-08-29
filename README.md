@@ -1,4 +1,4 @@
-# 🌍 Engenharia de Software - Universidade de Vassouras 🖥️
+# 🌍 Engenharia de Software - UNIVASSOURAS 🖥️
 
 ![banner (1)](https://github.com/cjannuzzi/ESW-lab-prog-web-sites-UNIVASSOURAS/assets/95255704/695f770e-b52c-461c-a493-3919bbfc2f68)
 
