@@ -53,7 +53,6 @@ Este repositório é para fins educativos, mas toda contribuição é bem-vinda!
 
 Prof. [Caio Jannuzzi](https://www.linkedin.com/in/caiojannuzzi/)
 <br>
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8299360.svg)](https://doi.org/10.5281/zenodo.8299360)
 
 > "A educação é a arma mais poderosa que você pode usar para mudar o mundo." - **Nelson Mandela**
 
@@ -62,4 +61,4 @@ Prof. [Caio Jannuzzi](https://www.linkedin.com/in/caiojannuzzi/)
 ⭐️ Lembre-se de dar uma estrela neste repositório se ele te ajudou!
 
 ---
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8299360.svg)](https://doi.org/10.5281/zenodo.8299360)
