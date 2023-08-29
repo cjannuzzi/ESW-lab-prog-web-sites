@@ -1,6 +1,7 @@
-# 🌍 Laboratório de Programação de Web Sites 🖥️
+# 🌍 Engenharia de Software - Universidade de Vassouras 🖥️
 
-![Banner](./assets/banner.jpg)
+![banner (1)](https://github.com/cjannuzzi/ESW-lab-prog-web-sites-UNIVASSOURAS/assets/95255704/695f770e-b52c-461c-a493-3919bbfc2f68)
+
 
 > "A essência da web é a simplicidade." - **Tim Berners-Lee**
 
