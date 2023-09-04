@@ -1,0 +1,65 @@
+/* Configurações gerais para o documento */
+
+body {
+    font-family: 'Arial', sans-serif; /* Tipo de fonte padrão para o documento */
+    margin: 0; 
+    background-color: #f4f1ea;
+    color: #554a42; 
+}
+
+/* Estilos para o cabeçalho */
+
+header {
+    background-color: #8f735b;
+    color: #ffffff; 
+    padding: 40px 0;
+    text-align: center; 
+}
+
+/* Estilos para o menu da cafeteria */
+
+#menu {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center; 
+}
+
+#menu ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#menu li {
+    padding: 10px; 
+    font-weight: bold; 
+}
+
+/* Estilos para a seção do espaço da cafeteria */
+
+#ambiance {
+    padding: 20px;
+    background-color: #e8dfd3;
+    text-align: center; 
+}
+
+#ambiance img {
+    max-width: 90%; 
+    margin: 20px 0; 
+}
+
+/* Estilos para a seção de localização */
+
+#location {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center; 
+}
+
+/* Estilos para a seção de contato */
+
+#contact {
+    padding: 20px;
+    background-color: #e8dfd3;
+    text-align: center; 
+}
+

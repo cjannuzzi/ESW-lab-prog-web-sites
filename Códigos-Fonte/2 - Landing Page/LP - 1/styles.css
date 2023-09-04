@@ -1,0 +1,39 @@
+/* Estilização geral */
+body { 
+    font-family: Arial, sans-serif; /* Define a família da fonte para o corpo do documento. */
+    margin: 0; /* Remove margens padrão. */
+    padding: 0; /* Remove espaçamentos internos padrão. */
+    background-color: #f4f4f4; /* Define a cor de fundo do corpo. */
+}
+
+header, section, footer {
+    padding: 20px; /* Adiciona espaçamento interno. */
+    text-align: center; /* Centraliza o texto. */
+}
+
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho. */
+    color: #ffffff; /* Cor do texto no cabeçalho. */
+}
+
+h1, h2 {
+    margin: 0; /* Remove margens padrão dos títulos. */
+    padding-bottom: 10px; /* Adiciona espaçamento abaixo dos títulos. */
+}
+
+ul {
+    list-style-type: none; /* Remove bolinhas padrão da lista. */
+    padding: 0; /* Remove espaçamentos internos da lista. */
+}
+
+li {
+    padding: 5px 0; /* Adiciona espaçamento acima e abaixo dos itens da lista. */
+}
+
+footer {
+    background-color: #333; /* Cor de fundo do rodapé. */
+    color: #ffffff; /* Cor do texto no rodapé. */
+    position: absolute; /* Posiciona o rodapé na parte inferior. */
+    bottom: 0; /* Alinha o rodapé na parte inferior. */
+    width: 100%; /* Faz o rodapé ocupar toda a largura. */
+}

@@ -1,0 +1,58 @@
+/* BASE E CONFIGURAÇÕES GERAIS */
+
+body {
+    font-family: 'Arial', sans-serif; /* Define a família da fonte utilizada no documento inteiro. */
+    margin: 0; 
+    background-color: #eee;
+    color: #333; /* Cor padrão do texto. */
+}
+
+/* CABEÇALHO */
+
+header {
+    background-color: #222;
+    color: #fff; /* Cor branca para o texto do cabeçalho. */
+    padding: 30px 0; 
+    text-align: center; 
+}
+
+/* CARACTERÍSTICAS DO SERVIÇO */
+
+#features {
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar um efeito elevado. */
+}
+
+#features ul {
+    list-style-type: none; /* Remove marcadores da lista. */
+    padding: 0;
+}
+
+#features li {
+    padding: 10px 0; 
+}
+
+/* AMOSTRAS DE TRABALHO */
+
+#samples {
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+/* INFORMAÇÕES DE CONTATO */
+
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* RODAPÉ */
+
+footer {
+    padding: 15px 0;
+    text-align: center;
+    background-color: #222;
+    color: #fff; /* Cor branca para o texto do rodapé. */
+}

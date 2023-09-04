@@ -1,0 +1,88 @@
+/* ---------------------------
+   REINICIANDO ALGUMAS CONFIGURAÇÕES PADRÕES
+   --------------------------- */
+
+/* Define configurações padrões para todo o corpo do documento */
+body {
+    /* Define a família da fonte para todo o documento, 
+       priorizando "Segoe UI" e recorrendo a outras se não disponíveis. */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Remove as margens padrão do corpo. Isso evita espaços indesejados 
+       em volta da borda da página. */
+    margin: 0;
+
+    /* Estabelece uma cor de fundo clara para todo o corpo do documento. */
+    background-color: #f9f9f9;
+}
+
+/* ---------------------------
+   ESTILOS DO CABEÇALHO
+   --------------------------- */
+
+/* Estiliza a seção de cabeçalho da página */
+header {
+    /* Adiciona uma cor azul ao fundo do cabeçalho. */
+    background-color: #007bff;
+
+    /* Garante que o texto dentro do cabeçalho seja branco 
+       para contrastar com o fundo azul. */
+    color: white;
+
+    /* Adiciona um espaço (padding) ao redor do conteúdo do cabeçalho, 
+       especialmente ao topo e ao fundo (20px). */
+    padding: 20px 0;
+
+    /* Centraliza o conteúdo do cabeçalho no eixo horizontal. */
+    text-align: center;
+}
+
+/* ---------------------------
+   ESTILOS DAS SEÇÕES
+   --------------------------- */
+
+/* Aplica estilos para todas as seções */
+section {
+    /* Adiciona espaço ao redor do conteúdo da seção. */
+    padding: 20px;
+
+    /* Centraliza o texto das seções no eixo horizontal. */
+    text-align: center;
+}
+
+/* Estilos específicos para listas não ordenadas */
+ul {
+    /* Remove os marcadores padrão (bullets) da lista. */
+    list-style-type: none;
+
+    /* Remove o espaçamento padrão e margens da lista. */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para cada item individual da lista */
+li {
+    /* Adiciona um espaço no topo e na base de cada item da lista. 
+       Isso garante que eles não fiquem muito próximos uns dos outros. */
+    padding: 5px 0;
+}
+
+/* ---------------------------
+   ESTILOS DO RODAPÉ
+   --------------------------- */
+
+/* Estiliza a seção de rodapé da página */
+footer {
+    /* Aplica uma cor de fundo escura ao rodapé. */
+    background-color: #333;
+
+    /* Define a cor do texto dentro do rodapé para branco, 
+       proporcionando um bom contraste com o fundo escuro. */
+    color: white;
+
+    /* Adiciona um pouco de espaço ao redor do conteúdo do rodapé. */
+    padding: 10px 0;
+
+    /* Centraliza o conteúdo do rodapé no eixo horizontal. */
+    text-align: center;
+}
