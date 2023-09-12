@@ -1,0 +1,84 @@
+/* Reset básico para remover margens e paddings padrões */
+body, h1, h2, p, ul, li, form, label, textarea, input {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Definindo uma fonte padrão */
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #FF3333; /* Cor de fundo vermelha */
+    text-align: center; /* Centralizando o conteúdo */
+    padding: 20px 0; /* Espaçamento interno no topo e na base */
+}
+
+header img {
+    width: 100px; /* Definindo uma largura fixa para o logo */
+    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
+}
+
+header h1 {
+    font-size: 2em; /* Tamanho da fonte */
+    color: #FFFFFF; /* Cor branca para o texto */
+}
+
+/* Estilizando a biografia */
+.bio {
+    padding: 20px; /* Espaçamento interno */
+    background-color: #EEE; /* Cor de fundo cinza claro */
+}
+
+/* Estilizando a discografia */
+.discografia {
+    padding: 20px;
+    background-color: #FFF; /* Cor de fundo branca */
+}
+
+.album img {
+    width: 150px;
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+
+/* Estilizando as datas da turnê */
+.turne {
+    padding: 20px;
+    background-color: #EEE;
+}
+
+.turne ul li {
+    list-style-type: none; /* Removendo os bullets das listas */
+    margin-bottom: 5px; /* Espaçamento entre os itens da lista */
+}
+
+/* Estilizando o formulário de contato */
+.contato {
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.contato form {
+    display: flex; /* Usando flexbox para o layout */
+    flex-direction: column; /* Os itens aparecerão em coluna */
+}
+
+.contato label, .contato input, .contato textarea {
+    margin-bottom: 10px; /* Espaçamento abaixo de cada elemento */
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo cinza escuro */
+    color: #FFF; /* Cor branca para o texto */
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #FFF; /* Links em branco */
+    margin: 0 5px; /* Espaçamento horizontal entre links */
+    text-decoration: none; /* Removendo o sublinhado dos links */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhando os links ao passar o mouse */
+}
