@@ -1,0 +1,18 @@
+Exercício: Conversor de Temperatura
+
+Objetivo:
+Criar uma página simples que permita ao usuário converter temperaturas entre Celsius e Fahrenheit.
+
+Instruções:
+
+1. Crie uma página com um título "Conversor de Temperatura".
+2. A página deve ter um campo de entrada onde o usuário pode inserir uma temperatura.
+3. Adicione dois botões: "Converter para Celsius" e "Converter para Fahrenheit".
+4. Abaixo dos botões, mostre o resultado da conversão.
+5. Estilize a página conforme achar melhor.
+
+
+Fórmulas de conversão
+
+Celsius para Fahrenheit: (celsius * 9/5) + 32
+Fahrenheit para Celsius: (fahrenheit - 32) * 5/9
