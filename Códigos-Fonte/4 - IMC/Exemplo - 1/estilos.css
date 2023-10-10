@@ -1,0 +1,40 @@
+/* Estilo básico para o body */
+body {
+    font-family: Arial, sans-serif; /* Define o tipo de fonte */
+    background-color: #f4f4f4; /* Cor de fundo cinza claro */
+    text-align: center; /* Centraliza o conteúdo na tela */
+    padding-top: 50px; /* Adiciona um espaçamento no topo */
+}
+
+/* Estilo para o container principal */
+.container {
+    background-color: #fff; /* Cor de fundo branca para o container */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    display: inline-block; /* Faz o container se ajustar ao conteúdo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilo para os campos de entrada */
+input {
+    padding: 10px; /* Espaçamento interno */
+    margin: 10px 0; /* Espaçamento externo */
+    border: 1px solid #ccc; /* Borda cinza */
+    border-radius: 4px; /* Borda arredondada */
+    width: 200px; /* Largura fixa */
+}
+
+/* Estilo para o botão */
+button {
+    padding: 10px 20px; /* Espaçamento interno */
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: #fff; /* Cor de texto branca */
+    border: none; /* Sem borda */
+    border-radius: 4px; /* Borda arredondada */
+    cursor: pointer; /* Muda o cursor para a mãozinha ao passar o mouse */
+}
+
+/* Efeito hover para o botão */
+button:hover {
+    background-color: #0056b3; /* Cor de fundo azul um pouco mais escura */
+}
