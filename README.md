@@ -22,7 +22,7 @@ Neste repositório, você encontrará:
 
 ## 🧭 Como Navegar
 
-1. 📖 Comece pela pasta `Introdução` para entender os fundamentos.
+1. 📖 Comece pela pasta `E-books da aula` para entender os fundamentos.
 2. 🛠️ Explore os `Códigos-Fonte` para ver os exemplos em ação.
 3. 🏋️‍♀️ Pratique com os `Exercícios` para aperfeiçoar suas habilidades.
 4. 📌 Veja os projetos dos colegas na seção `Projetos` para inspiração.
