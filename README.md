@@ -14,7 +14,6 @@ Bem-vindo ao repositório das aulas de *Laboratório de Programação de Web Sit
 Neste repositório, você encontrará:
 
 - 📂 **Códigos-Fonte**: Todos os exemplos práticos das aulas.
-- 📝 **Anotações**: Observações importantes e dicas sobre as aulas.
 - 🧪 **Exercícios**: Práticas para aperfeiçoar o que foi aprendido.
 - 🌐 **Projetos**: Trabalhos desenvolvidos ao longo do semestre.
 
