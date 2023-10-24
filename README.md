@@ -51,7 +51,7 @@ Este repositório é para fins educativos, mas toda contribuição é bem-vinda!
 
 ## 🎓 Autor
 
-Prof. [Caio Jannuzzi](https://www.linkedin.com/in/caiojannuzzi/)
+Prof. Me. [Caio Jannuzzi](https://www.linkedin.com/in/caiojannuzzi/)
 <br>
 
 > "A educação é a arma mais poderosa que você pode usar para mudar o mundo." - **Nelson Mandela**
