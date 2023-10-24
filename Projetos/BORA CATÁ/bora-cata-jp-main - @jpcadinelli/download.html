@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bora Catá</title>
+    <link rel="stylesheet" href="download.css">
+    <link rel="icon" href="assets/imagens/Logo Bora Catá.png">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <img src="assets/imagens/Logo Bora Catá.png" alt="Logo do Bora Cata" class="header-logo">
+        <input type="checkbox" id="opcoes" class="menu-ham">
+        <label for="opcoes">
+            <div class="icone-menu">
+            </div>
+        </label>
+        <nav class="nav">
+            <ul>
+                <li class="nav-item"><a href="#">Início</a></li>
+                <li class="nav-item"><a href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a href="#sobre 2">Como Instalar</a></li>
+                <li class="nav-item"><a href="#formulario">Contato</a></li>
+            </ul>
+            <a href="https://boracata.itch.io/bora" class="jogar" target="_blank">Download</a>
+        </nav>
+        <nav class="header-nav">
+            <ul>
+                <li class="header-nav-item"><a href="#">Início</a></li>
+                <li class="header-nav-item"><a href="#sobre">Sobre</a></li>
+                <li class="header-nav-item"><a href="#sobre 2">Como Instalar</a></li>
+                <li class="header-nav-item"><a href="#formulario">Contato</a></li>
+            </ul>
+        </nav>
+        <a href="https://boracata.itch.io/bora" class="header-jogar" target="_blank">Download</a>
+    </header>
+
+    <!-- Primeira impressão da página -->
+    <main>
+        <img src="assets/imagens/tela menu inicial.png" alt="Menu inicial" class="img-desk">
+        <img src="assets/imagens/tela menu inicial-mobile.png" alt="Menu inicial" class="img-mob">
+        <div class="resumo">
+            <h1>Bora Catá</h1>
+            <p>É um jogo educativo focado em ensinar sobre reciclagem de maneira lúdica e divertida. Os jogadores assumem o papel de personagens que exploram um mundo virtual com desafios relacionados à coleta seletiva, separação correta dos resíduos e práticas sustentáveis. Através de atividades interativas, os jogadores aprendem sobre a importância da reciclagem, os benefícios ambientais e como contribuir para um futuro mais sustentável. O objetivo é conscientizar e incentivar práticas ecológicas, promovendo a responsabilidade ambiental de forma atraente e educativa.</p>
+        </div>
+    </main>
+
+    <!-- Section do Bora Catá -->
+    <section id="sobre">
+        <div class="sobre">
+            <div class="sobre-texto">
+                <h2>Bora Catá</h2>
+                <p>Entre no desafio!<br><br>Navegue pelo quintal, pelo bairro e pelo bosque coletando lixos espalhados e transforme cada canto em um lugar mais limpo e verde.<br><br>A cada item coletado e depositado corretamente, você não só acumula pontos, mas também faz sua parte pelo planeta. Aprenda, divirta-se e faça a diferença!</p>
+            </div>
+            <img src="assets/imagens/joao com vidro na mao - gameplay.png" alt="João com vidro na mão">
+        </div>
+        <div class="sobre">
+            <div class="sobre-texto">
+                <p>O jogo não é apenas ganhar, é cuidar do nosso mundo!<br><br><span>#BoraCatá</span> e se juntar a esta missão!<br><br>Junte-se a nós nessa jornada e vamos jogar e aprender juntos com o <span>Bora Catá!</span></p>
+                <br>
+                <br>
+                <a href="https://boracata.itch.io/bora" class="jogar" target="_blank">Download</a>
+            </div>
+            <img src="assets/imagens/disposição dos lixos fase 2.png" alt="Gameplay na fase 2">
+        </div>
+    </section>
+
+    <section id="sobre 2">
+        <div class="sobre">
+            <div class="sobre-texto">
+                <h2>Como Instalar</h2> 
+                <p>1. Baixe o arquivo <span>BoraCatá.zip</span>;</p>
+                <p>2. Descompacte em alguma pasta de sua preferência;</p>
+                <p>3. Dentor da pasta onde descompactou o jogo, execute o <span>BoraCata.exe</span>;</p>
+                <p>4. Divirta-se!</p>
+            </div>
+            <img src="assets/imagens/disposição dos lixos fase 1.png" alt="Gameplay na fase 1">
+        </div>
+    </section>
+
+    <!-- Section de contato -->
+    <section class="formulario" id="formulario">
+        <div class="container">
+            <div class="form-image">
+                <!-- <img src="assets/imagens/disposição dos lixos fase 3.png" alt=""> -->
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1>Entre em contato</h1>
+                        </div>
+                    </div> 
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Primeiro Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="email">E-mail</label>
+                            <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="number">Celular</label>
+                            <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="password">Cidade</label>
+                            <input id="password" type="text" name="password" placeholder="Informe sua cidade" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="confirmPassword">Idade</label>
+                            <input id="confirmPassword" type="number" name="confirmPassword" placeholder="Digite sua idade" required min="1">
+                        </div>
+                    </div>
+                    <div class="gender-inputs">
+                        <div class="gender-title">
+                            <h6>Gênero</h6>
+                        </div>
+                        <div class="gender-group">
+                            <div class="gender-input">
+                                <input id="female" type="radio" name="gender">
+                                <label for="female">Feminino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input id="male" type="radio" name="gender">
+                                <label for="male">Masculino</label>
+                            </div>
+                            <div class="gender-input">
+                                <input id="others" type="radio" name="gender">
+                                <label for="others">Outros</label>
+                            </div>
+                            <div class="gender-input">
+                                <input id="none" type="radio" name="gender">
+                                <label for="none">Prefiro não dizer</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="continue-button">
+                        <button><a href="#" class="continue-button">Confirmar</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé da página -->
+    <footer>
+        <div class="footer">
+            <img src="assets/imagens/Logo Bora Catá.png" alt="Logo do Bora Cata" class="footer-logo">
+            <div class="footer-nav">
+                <nav>
+                    <ul>
+                        <li class="header-nav-item"><a href="#">Início</a></li>
+                        <li class="header-nav-item"><a href="#bora-cata">Sobre</a></li>
+                        <li class="header-nav-item"><a href="#como-instalar">Como Instalar</a></li>
+                        <li class="header-nav-item"><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                <a href="index.html" class="jogar">Home</a>
+            </div>
+        </div>
+        <div class="cr">
+            <p>&copy;2023 Todos os direitos reservados ao Grupo 8</p>
+        </div>
+    </footer>
+</body>
+</html>

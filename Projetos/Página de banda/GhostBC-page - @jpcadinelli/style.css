@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Grenze Gotisch', cursive;
+    list-style: none;
+}
+
+:root {
+    --color-primary: black;
+    --color-secondary: darkred;
+    --color-text: white;
+    --color-box: rgba(40,40,40,100);
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+body {
+    background: var(--color-primary);
+}
+
+header {
+    position: fixed;
+    z-index: 9;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 10vh;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+}
+
+.cabecalho img {
+    max-height: 6vh;
+    margin-top: 2vh;
+    margin-left: 1vh;
+}
+
+.cabecalho-nav {
+    margin-top: 2vh;
+}
+
+.cabecalho-nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cabecalho-nav-link {
+    padding-right: 1vw;
+}
+
+.correcao-cabelho-fixo {
+    padding-top: 9vh;
+}
+
+.biografia img {
+    max-width: 100%;
+}
+
+.card {
+    margin-left: 8%;
+    margin-top: -10vh;
+}
+
+.card-biografia {
+    color: var(--color-text);
+    text-align: justify;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    max-width: 80vw;
+    padding: 2vw;
+    border-radius: 10px;
+}
+
+.card-biografia h1 {
+    font-size: 32px;
+}
+
+.titulo-discografia, .titulo-videos, .titulo-shows, .titulo-contato, .titulo-redessociais {
+    color: var(--color-text);
+    margin-left: 10%;
+    font-size: 30px;
+}
+
+#discografia, #videos, #shows, #contato, #redessociais {
+    margin-top: 1rem;
+}
+
+.album {
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background: var(--color-box);
+    /* border: 2px solid var(--color-primary); */
+    border-radius: 10px;
+    max-width: 80vw;
+    box-shadow: 0px 0px 10px var(--color-box);
+}
+
+.album img {
+    max-width: 30vw;
+    padding-top: .65rem;
+}
+
+.album div {
+    padding-left: 1rem;
+}
+
+.album div h3 {
+    font-size: 24px;
+}
+
+.album ul {
+    padding-left: 1rem;
+}
+
+.album li {
+    list-style: decimal;
+}
+
+.discografia-artista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.discografia-artista a {
+    background: var(--color-secondary);
+    padding: 3px 15px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 var(--color-text);
+}
+
+.discografia-artista a:hover {
+    color: var(--color-primary);
+}
+
+.iframe-spotify {
+    max-width: 88vw;
+    margin-top: 2rem;
+}
+
+#videos {
+    margin-top: 1rem;
+}
+
+.videos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.iframe-yt {
+    margin-top: .75rem;
+    max-width: 80vw;
+    max-height: 45vw;
+}
+
+.shows article {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.linha-shows {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+}
+
+.data, .pais {
+    font-size: 20px;
+    font-weight: 700;    
+    text-shadow: 1px 1px 0 var(--color-secondary);
+}
+
+.local {
+    text-shadow: 1px 1px 0 var(--color-secondary);
+}
+
+.ingressos {
+    background: var(--color-secondary);
+    padding: 3px 15px;
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+}
+
+.ingressos:hover {
+    color: var(--color-primary);
+}
+
+.obrigatorio {
+    color: var(--color-text);
+    font-size: 12px;
+    text-align: end;
+    padding-right: 5vw;
+}
+
+.contato p {
+    color: var(--color-text);
+    margin: 0 10vw;
+}
+
+.contato input, .contato select {
+    margin: 0 10vw;
+    width: 80vw;
+    height: 28px;
+    border-radius: 5px;
+}
+
+.contato input {
+    border: 0;
+}
+
+.contato button {
+    display: block;
+    margin: 1rem auto 0 auto;
+    border: 0;
+    width: 25vw;
+    height: 32px;
+    background: var(--color-secondary);
+    color: var(--color-text);
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.contato button:hover {
+    color: var(--color-primary);
+}
+
+.pt-05 {
+    padding-top: .5rem;
+}
+
+.redessociais {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.redessociais img {
+    max-width: 15vw;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-footer {
+    max-height: 5rem;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* Responsividade */
+@media screen and (min-width: 437px) {
+    .cabecalho {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media  screen and (min-width: 460px) {
+    .card {
+        width: 386px;
+        margin-right: 10vw;
+        margin-left: auto;
+        margin-top: -15vh;
+    }
+
+    .discografia {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .album {
+        width: 400px;
+    }
+
+    .album img {
+        width: 138px;
+    }
+
+    .videos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        margin-top: -20vh;
+    }
+
+    .iframe-spotify {
+        width: 676px;
+    }
+
+    .shows-info {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .local {
+        position: absolute;
+        margin-left: 16vw;
+    }
+
+    .pais {
+        position: absolute;
+        margin-left: 32vw;
+    }
+
+    .obrigatorio {
+        text-align: center;
+        padding-left: 35rem;
+    }
+
+    .contato input, .contato select {
+        width: 614px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contato button {
+        width: 192px;
+    }
+
+    .redessociais {
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .contato-p-mensagem {
+        text-align: center;
+        padding-right: 34rem;
+    }
+
+    .contato-p-email {
+        text-align: center;
+        padding-right: 36rem;
+    }
+    
+    .contato-p-nome {
+        text-align: center;
+        padding-right: 34.5rem;
+    }
+
+    .contato-p-pais {
+        text-align: center;
+        padding-right: 36.5rem;
+    }
+}
+
+@media screen and (min-width: 1442px) {
+    .cabecalho-nav-link {
+        font-size: 32px;
+    }
+
+    .card {
+        margin-top: -25vh;
+    }
+}

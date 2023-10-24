@@ -1,0 +1,629 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,900&display=swap');
+/* font-family: 'Barlow', sans-serif;
+font-family: 'Fraunces', serif; */
+
+/* Resetando estilos dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Cor do bacground da página */
+body {
+    background-color: blanchedalmond;
+}
+
+/* Estilização do cabeçalho */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2%;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5px);
+    border-radius: 25px;
+    padding: .5rem 2rem;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .14);
+    position: fixed;
+    width: 96%;
+    z-index: 9;
+}
+
+.header-logo {
+    width: 100px;
+    height: auto;
+}
+
+.header-nav {
+    width: 30%;
+}
+
+.header-nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-nav-item {
+    list-style: none;
+    margin-right: 1rem;
+}
+
+.header-nav-item a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+.header-nav-item a:hover {
+    color: black;
+}
+
+.header-jogar {
+    text-decoration: none;
+    color: white;
+    background: rgb(255, 153, 0);
+    padding: .5rem .75rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+}
+
+.header-jogar:hover {
+    transition: .5s;
+    color: black;
+    background: rgb(255, 102, 0);
+}
+
+/* Menu Hamburguer */
+.menu-ham {
+    display: none;
+}
+
+.icone-menu {
+    display: none;
+}
+
+.nav {
+    display: none;
+    width: 0;
+    height: 0;
+    position: fixed;
+    background: #4b58a4;
+    border-radius: 25px;
+    padding: 0 1rem 2rem 1rem;
+    top: 86px;
+    left: 5%;
+    text-align: center;
+}
+
+.nav li {
+    margin: 2rem;
+}
+
+.nav-item a {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: black;
+}
+
+.jogar {
+    text-decoration: none;
+    color: white;
+    background: rgb(255, 153, 0);
+    padding: .5rem .75rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+}
+
+.jogar:hover {
+    transition: .5s;
+    color: black;
+    background: rgb(255, 102, 0);
+}
+
+#opcoes:checked ~ .nav {
+    display: block;
+    width: 90%;
+    height: auto;
+}
+
+/* Estilização do Resumo */
+main img {
+    width: 100%;
+    height: auto;
+}
+
+.img-mob {
+    display: none;
+}
+
+.resumo {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(25px);
+    border-radius: 25px;
+    padding: 3rem 2.5rem;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .2);
+    width: 600px;
+    position: absolute;
+    top: 335px;
+    right: 60px;
+}
+
+.resumo h1 {
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.resumo p {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+}
+
+/* Estilização do Sobre */
+.sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 10%;
+    width: 80%;
+}
+
+.sobre img {
+    width: 47%;
+    min-width: 500px;
+}
+
+.sobre-texto {
+    width: 47%;
+    min-width: 500px;
+}
+
+.sobre h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+}
+
+.sobre p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.sobre p span {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+/* Estilização do Como Jogar */
+.como-jogar {
+    width: 50%;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    background: #4b58a4;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .2);
+    margin: 4rem auto .5rem auto;
+}
+
+.como-jogar h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.como-jogar p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.como-jogar img {
+    width: 60%;
+    margin: .5rem 20%;
+}
+
+.como-jogar h3 {
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Estilização do Materiais */
+#materiais {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#materiais h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    margin-top: 3rem;
+}
+
+.materiais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3rem 0;
+    border: 3px solid #4b58a4;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.materiais-texto {
+    width: 46%;
+}
+
+.materiais-texto h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.materiais-texto p {
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.materiais-img {
+    width: 46%;
+    text-align: center;
+}
+
+.materiais-img img {
+    border-radius: 110px;
+}
+
+/* Estilização do Relatos */
+#relato {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#relato h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    margin-top: 3rem;
+}
+
+.relatos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.relato {
+    width: 26.5%;
+}
+
+.relato p {
+    margin-bottom: 1rem;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+.relato h3 {
+    margin-top: 1rem;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.relato img {
+    width: 80px;
+    border-radius: 75px;
+}
+
+/* Estilização do Contato */
+#contato{
+    width: 40%;
+    margin: 2rem auto;
+    padding: 1rem 2rem 4rem 2rem;
+    border-radius: 2rem;
+    background: #4b58a4;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .2);
+    color: white;
+}
+
+.contato {
+    width: 80%;
+    margin: 3rem auto 0 auto;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+.obrigatorio {
+    text-align: end;
+    font-size: 12px;
+}
+
+.contato input, .contato select {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    margin-top: .25rem;
+    margin-bottom: 1rem;
+    padding-left: .5rem;
+}
+
+.input-padrão {
+    height: 30px;
+}
+
+.mensagem {
+    height: 90px;
+}
+
+.mensagem::placeholder {
+    position: relative;
+    top: -30px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.contato button {
+    margin-top: 2rem;
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, .14);
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.contato button:hover {
+    transition: .5s;
+    background: rgb(255, 102, 0);
+}
+
+/* Estilização do footer */
+footer {
+    background: #262e5a;
+    display: block;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    width: 30%;
+    height: auto;
+    flex-grow: 1;
+}
+
+.footer-nav {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-nav li {
+    margin: 1rem 0;
+}
+
+.footer-nav a {
+    margin-top: 2rem;
+}
+
+.cr {
+    color: white;
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    padding: 1rem 0 2rem 0;
+}
+
+
+/* --------------------------------------- */
+/* -------------RESPONSIVIDADE------------ */
+/* --------------------------------------- */
+@media screen and (max-width: 1898px) {
+    /* Responsividade do Materiais */
+    .materiais {
+        flex-direction: column;
+    }
+
+    .materiais-texto {
+        width: 90%;
+        text-align: justify;
+    }
+
+    .materiais-img {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .materiais-img img {
+        max-width: 50%;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1725px) {
+    /* Responsividade da barra de navegação */
+    .header-nav ul {
+        justify-content: space-around;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1565px) {
+    /* Responsividade da Imagem inicial */
+    .img-desk {
+        display: none;
+    }
+
+    .img-mob {
+        display: block;
+    }
+
+    /* Responsividadae do Resumo */
+    .resumo {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: -2rem auto 2rem auto;
+        width: 939px;
+    }
+
+    .resumo h1, .resumo p {
+        color: black;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 1249px) {
+     /* Resposividade do Sobre */
+     .sobre {
+        flex-direction: column;
+    }
+
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .sobre-texto {
+        width: 80%;
+        min-width: 0px;
+        height: auto;
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .resumo {
+        width: 80%;
+    }
+
+    .sobre img {
+        width: 80%;
+        min-width: 0px;
+    }
+
+    /* Responsividade do Como jogar */
+    .como-jogar {
+        width: 80%;
+    }
+
+    /* Responsividade Relato */
+    .relatos {
+        flex-direction: column;
+    }
+
+    .relato {
+        min-width: 280px;
+    }
+
+    /* Responsividade do Contato */
+    #contato {
+       min-width: 425px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-nav {
+        display: none;
+    }
+    
+    .header-jogar {
+        display: none;
+    }
+
+    .icone-menu {
+        display: block;
+        width: 35px;
+        height: 35px;
+        background: url('./assets/imagens/icone-menu-hamburguer.png') no-repeat;
+        background-size: 100%;
+    }
+
+    .icone-menu:hover {
+        background: url('./assets/imagens/icone-menu-hamburguer-preto.png') no-repeat;
+        background-size: 100%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .resumo p, .sobre p, .como-jogar p, .materiais-texto p {
+        font-size: 16px;
+    }
+}
+
+/* --------------------------------------- */
+/* --------------Utilitários-------------- */
+/* --------------------------------------- */
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+/* Botões fora do header */
+.jogar {
+    text-decoration: none;
+    color: white;
+    background: rgb(255, 153, 0);
+    padding: .5rem .75rem;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, .4);
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+}
+
+.jogar:hover {
+    transition: .5s;
+    color: black;
+    background: rgb(255, 102, 0);
+}
