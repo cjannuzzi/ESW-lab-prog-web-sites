@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eaeaea;
+    color: #333;
+    padding: 20px;
+    transition: background 0.2s linear;
+}
+
+.main-container {
+    background-color: #fff;
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.profile-header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #007BFF;
+    margin: 20px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.habilidades__outrascompetencias {
+    margin-top: 2rem;
+}
+
+body.dark {
+    background: #111;
+    color: #ccc;
+}
+
+.dark .main-container {
+    background-color: #333;
+}
+
+.checkbox__tema {
+    opacity: 0;
+    position: absolute;
+}
+
+.label__tema {
+    background: #111;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    height: 26px;
+    width: 50px;
+    transform: scale(1);
+}
+
+.ball__tema {
+    background-color: #ccc;
+    border-radius: 50px;
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    height: 22px;
+    width: 22px;
+    transform: translateX(0px);
+    transition: transform 0.2s linear;
+}
+
+.checkbox__tema:checked + .label__tema .ball__tema {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: yellow;
+}
+
+.fa-sun {
+    color: orange;
+}
