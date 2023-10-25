@@ -4,20 +4,20 @@ Ao longo do semestre, vários projetos chamaram a atenção de professores e col
 
 1. **Currículo** - Desenvolvido pelos discentes: 
     - [João Pedro Cadinelli](https://github.com/jpcadinelli)
-    - [HeloisaCabral](https://github.com/devheloisacabral)
+    - [Heloisa Cabral](https://github.com/devheloisacabral)
     
   O exercício consistia em criar um currículo utilizando no mínimo HTML e CSS.
     
 
 2. **Landing Page - Cafeteria** - Desenvolvido pelos discentes: 
     - [João Pedro Cadinelli](https://github.com/jpcadinelli)
-    - [HeloisaCabral](https://github.com/devheloisacabral)
+    - [Heloisa Cabral](https://github.com/devheloisacabral)
       
   O exercício consistia em criar uma landing page para uma cafeteria fictícia chamada "Café & Conforto". A página deve transmitir uma sensação aconchegante e acolhedora, com destaque para seus cafés especiais e espaços para leitura e trabalho utilizando no mínimo HTML e CSS.
 
 3. **Página de Banda** - Desenvolvido pelos discentes: 
     - [João Pedro Cadinelli](https://github.com/jpcadinelli)
-    - [HeloisaCabral](https://github.com/devheloisacabral)
+    - [Heloisa Cabral](https://github.com/devheloisacabral)
 
   O exercício consistia em criar uma página de perfil para um músico ou banda fictícia (ou real) utilizando no mínimo HTML e CSS.
 
@@ -27,10 +27,14 @@ Ao longo do semestre, vários projetos chamaram a atenção de professores e col
   O exercício consistia em criar uma página do jogo educativo BORA CATÁ utilizando HTML e CSS.
   
 5. **Conversor de temperatura** - Desenvolvido pela discente: 
-    - [HeloisaCabral](https://github.com/devheloisacabral)
+    - [Heloisa Cabral](https://github.com/devheloisacabral)
 
   O exercício consistia em criar uma página simples que permita ao usuário converter temperaturas entre Celsius e Fahrenheit utilizando HTML, CSS e JS.
 
+6. **Lista de taredas (To-do-list)** - Desenvolvido pela discente: 
+    - [Maria Eduarda](https://github.com/Tenko2699)
+
+  O exercício consistia em criar uma To-do-list utilizando HTML, CSS e JS.
 
 ---
 

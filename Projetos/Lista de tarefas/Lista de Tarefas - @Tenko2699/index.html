@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="bumblebee">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.18.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Favicon -->
+    <link rel="icon" href="res/favicon.svg">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Lista de Tarefas</h1>
+            <div class="alert-message"></div>
+            <div class="input-section">
+                <input type="text" placeholder="Adicione uma tarefa . . ." class="input input-bordered input-secondary w-full max-w-xs" />
+                <input type="date" class="input input-bordered input-secondary w-full max-w-xs schedule-date" />
+                <button class="btn btn-secondary add-task-button">
+                    <i class="bx bx-plus bx-sm"></i>
+                </button>
+            </div>
+        </header>
+
+        <div class="todos-filter">
+            <div class="dropdown">
+                <label tabindex="0" class="btn m-1">Filtrar</label>
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                    <li onclick="filterTodos('all')"><a>Tudo</a></li>
+                    <li onclick="filterTodos('pending')"><a>Pendente</a></li>
+                    <li onclick="filterTodos('completed')"><a>Concluída</a></li>
+                </ul>
+            </div>
+            <button class="btn btn-secondary delete-all-btn">
+                Deletar tudo
+            </button>
+        </div>
+
+        <table class="table w-full">
+            <thead>
+                <tr>
+                    <th>Tarefa</th>
+                    <th>Vencimento</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody class="todos-list-body">
+            </tbody>
+        </table>
+
+    </div>
+
+
+    <div class="theme-switcher">
+        <div class="dropdown dropdown-left">
+            <label tabindex="0" class="btn m-1">
+                <i class='bx bxs-palette bx-sm'></i>
+            </label>
+            <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
+                <li class="theme-item" theme="cupcake"><a>cupcake</a></li>
+                <li class="theme-item" theme="dark"><a>dark</a></li>
+                <li class="theme-item" theme="light"><a>light</a></li>
+                <li class="theme-item" theme="bumblebee"><a>bumblebee</a></li>
+                <li class="theme-item" theme="synthwave"><a>synthwave</a></li>
+                <li class="theme-item" theme="halloween"><a>halloween</a></li>
+                <li class="theme-item" theme="fantasy"><a>fantasia</a></li>
+                <li class="theme-item" theme="dracula"><a>dracula</a></li>
+                <li class="theme-item" theme="aqua"><a>aqua</a></li>
+                <li class="theme-item" theme="luxury"><a>luxuria</a></li>
+                <li class="theme-item" theme="night"><a>noite</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+    <script src="js/theme_switcher.js"></script>
+</body>
+</html>
