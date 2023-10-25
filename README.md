@@ -14,7 +14,6 @@ Bem-vindo ao repositório das aulas de *Laboratório de Programação de Web Sit
 Neste repositório, você encontrará:
 
 - 📂 **Códigos-Fonte**: Todos os exemplos práticos das aulas.
-- 📝 **Anotações**: Observações importantes e dicas sobre as aulas.
 - 🧪 **Exercícios**: Práticas para aperfeiçoar o que foi aprendido.
 - 🌐 **Projetos**: Trabalhos desenvolvidos ao longo do semestre.
 
@@ -22,7 +21,7 @@ Neste repositório, você encontrará:
 
 ## 🧭 Como Navegar
 
-1. 📖 Comece pela pasta `Introdução` para entender os fundamentos.
+1. 📖 Comece pela pasta `E-books da aula` para entender os fundamentos.
 2. 🛠️ Explore os `Códigos-Fonte` para ver os exemplos em ação.
 3. 🏋️‍♀️ Pratique com os `Exercícios` para aperfeiçoar suas habilidades.
 4. 📌 Veja os projetos dos colegas na seção `Projetos` para inspiração.
@@ -51,7 +50,7 @@ Este repositório é para fins educativos, mas toda contribuição é bem-vinda!
 
 ## 🎓 Autor
 
-Prof. [Caio Jannuzzi](https://www.linkedin.com/in/caiojannuzzi/)
+Prof. Me. [Caio Jannuzzi](https://www.linkedin.com/in/caiojannuzzi/)
 <br>
 
 > "A educação é a arma mais poderosa que você pode usar para mudar o mundo." - **Nelson Mandela**
