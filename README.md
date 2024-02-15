@@ -53,7 +53,7 @@ Este repositório é para fins educativos, mas toda contribuição é bem-vinda!
 Prof. Me. [Caio Jannuzzi](https://www.linkedin.com/in/caiojannuzzi/)
 <br>
 
-> "A educação é a arma mais poderosa que você pode usar para mudar o mundo." - **Nelson Mandela**
+> "Esse tem sido um dos meus mantras – foco e simplicidade. Simples pode ser mais difícil de fazer do que complexo; você tem que trabalhar duro para clarear seu pensamento a fim de torná-lo simples." - **Steve Jobs**
 
 ---
 
