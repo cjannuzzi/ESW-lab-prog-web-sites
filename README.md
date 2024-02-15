@@ -1,6 +1,6 @@
 # 🌍 Engenharia de Software - UNIVASSOURAS 🖥️
 
-![banner (1)](https://github.com/cjannuzzi/ESW-lab-prog-web-sites-UNIVASSOURAS/assets/95255704/695f770e-b52c-461c-a493-3919bbfc2f68)
+![Laboratório de Programação de Web Sites](https://github.com/cjannuzzi/ESW-lab-prog-web-sites/assets/95255704/4fa9aa1a-b27f-4337-b1ab-88be1f35c9f8)
 
 
 > "A essência da web é a simplicidade." - **Tim Berners-Lee**
