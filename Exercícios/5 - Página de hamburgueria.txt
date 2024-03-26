@@ -1,0 +1,45 @@
+O. Objetivo do Projeto
+
+Desenvolver uma página web para uma loja de hambúrguer (também conhecida como hamburgueria) fictícia (OU NÃO), que seja visualmente atraente, fácil de navegar e que ofereça todas as informações necessárias para que os clientes possam conhecer os produtos e entrar em contato com a loja.
+
+Checklist do Projeto
+
+1. Planejamento e Design
+Definição do Público-Alvo: Identificar quem são os potenciais clientes da loja de hambúrguer.
+Escolha do Nome e Identidade Visual: Definir um nome para a loja e uma paleta de cores que combine com o tema.
+Layout do Site: Esboçar um layout simples e intuitivo, definindo onde cada elemento será colocado na página (cabeçalho, menu de produtos, sobre nós, contato).
+
+2. Desenvolvimento
+
+2.1 HTML
+Estrutura Básica: Incluir as tags fundamentais (<html>, <head>, <body>).
+Cabeçalho: Criar um cabeçalho com o nome da loja e um menu de navegação.
+Sobre a Loja: Adicionar uma seção contando a história da loja e sua filosofia.
+Menu de Hambúrgueres: Exibir os hambúrgueres disponíveis com fotos, descrições e preços. Pode-se usar <section> para a área do menu e <article> ou <div> para cada item.
+Contato e Localização: Fornecer informações de contato e localização, talvez incluir um mapa incorporado do Google Maps.
+
+2.2 CSS
+Reset CSS: Aplicar um reset ou normalize CSS para garantir consistência entre navegadores.
+Estilos Globais: Definir estilos para o corpo do documento, cabeçalhos, parágrafos e links.
+Layout: Utilizar Flexbox ou CSS Grid para criar um layout responsivo que se adapte a diferentes tamanhos de tela.
+Estilização de Elementos: Aplicar cores, fontes, espaçamentos e bordas de acordo com a identidade visual.
+Efeitos Visuais: Adicionar efeitos simples, como hover nos links do menu de navegação.
+
+3. Teste e Validação
+
+Testar em Diferentes Navegadores: Verificar se a página funciona corretamente no Chrome, Firefox, Safari, etc.
+Responsividade: Testar em diferentes dispositivos para assegurar uma boa visualização tanto em desktop quanto em mobile.
+Validação do Código: Utilizar ferramentas como o W3C Markup Validation Service e o CSS Validation Service para verificar a corretude do HTML e CSS.
+4. Feedback e Iteração
+Coletar Opiniões: Pedir feedback de colegas, professores e amigos.
+Ajustes: Realizar ajustes com base no feedback recebido para melhorar a funcionalidade e a estética da página.
+
+Este checklist acima deve ajudar a dar um caminho claro a seguir para garantir que todos os aspectos importantes da criação de uma página web sejam abordados. 
+
+Sejam criativos e explorarem soluções inovadoras, sempre tendo em mente o usuário final e a potencial aplicabilidade comercial do projeto.
+
+Lembrem-se que o HTML e CSS é o mínimo pedido... logo, caso queiram ir além e demonstrar habilidades com frameworks e etc que agreguem ao projeto... é com vocês!
+
+DICA: Procurem um comerciante local do ramo e tentem formar uma "parceria"! Apresentem o portfóloio de vocês até o momento feito durante a disciplina para ajudar a convencer.
+
+Boa sorte!

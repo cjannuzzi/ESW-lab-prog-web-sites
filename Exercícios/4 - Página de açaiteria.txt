@@ -1,0 +1,48 @@
+Bora tirar uma rodinha da bike de vocês alunos rs. Este novo projeto tem real aplicabilidade no mercado, então caprichem!
+
+0. Objetivo do Projeto:
+
+Desenvolver uma página web para uma açaiteria fictícia (OU NÃO), que seja visualmente atraente, fácil de navegar e que ofereça todas as informações necessárias para que os clientes possam conhecer os produtos e entrar em contato com a loja.
+
+Abaixo em pequeno checklist para guiá-los.
+
+1. Planejamento
+- Defina o objetivo da página: Deve ser uma página que apresente a loja de açaí, seu menu, localização, e como fazer pedidos.
+- Identifique o público-alvo: Pense em quem será o cliente típico e o que ele procura em uma loja de açaí.
+- Escolha uma paleta de cores: Preferencialmente, cores que lembrem açaí ou que estejam associadas à natureza e frescor.
+- Faça um esboço do layout da página: Pode ser feito à mão ou usando ferramentas de design.
+
+2. Página
+
+2.1 Desenvolvimento HTML
+- Estrutura básica: Inclua os elementos `<html>`, `<head>`, e `<body>`.
+- Cabeçalho e navegação: Utilize a tag `<header>` e inclua links para as diferentes seções da página, se houver.
+- Sobre a loja: Use `<section>` para criar uma seção sobre a história da loja e sua missão.
+- Menu de produtos: Apresente os produtos com imagens, descrições e preços. Utilize `<article>` ou `<div>` para cada item.
+- Localização e contato: Inclua um mapa (pode ser um link para o Google Maps) e formas de contato (telefone, e-mail).
+
+2.2 CSS
+- Estilos globais: Defina estilos para elementos comuns como o corpo da página, cabeçalhos (`h1`, `h2`, ...), parágrafos (`p`), e links (`a`).
+- Layout: Use Flexbox ou Grid para organizar o layout da página de forma responsiva.
+- Imagens e cores: Escolha imagens de alta qualidade para os produtos e aplique a paleta de cores escolhida.
+- Tipografia: Escolha fontes que sejam fáceis de ler e que complementem o design da página.
+- Efeitos de interação: Adicione efeitos simples, como mudanças de cor ou sublinhado em links ao passar o mouse.
+
+3. Teste
+- Compatibilidade de navegadores: Teste a página em diferentes navegadores para garantir que apareça corretamente em todos eles.
+- Responsividade: Garanta que a página esteja visualmente agradável em dispositivos móveis, tablets e desktops.
+- Validação: Use ferramentas como o W3C Markup Validation Service para verificar se o código HTML e CSS está correto.
+
+4. Melhorias e Feedback
+- Recolha feedback: Peça opiniões de colegas, amigos ou potenciais usuários sobre a usabilidade e o design da página.
+- Iteração: Use o feedback recebido para fazer melhorias contínuas na página.
+
+Este checklist acima deve ajudar a dar um caminho claro a seguir para garantir que todos os aspectos importantes da criação de uma página web sejam abordados. 
+
+Sejam criativos e explorarem soluções inovadoras, sempre tendo em mente o usuário final e a potencial aplicabilidade comercial do projeto.
+
+Lembrem-se que o HTML e CSS é o mínimo pedido... logo, caso queiram ir além e demonstrar habilidades com frameworks e etc que agreguem ao projeto... é com vocês!
+
+DICA: Procurem um comerciante local do ramo e tentem formar uma "parceria"! Apresentem o portfóloio de vocês até o momento feito durante a disciplina para ajudar a convencer.
+
+Boa sorte!
