@@ -1,0 +1,59 @@
+PARA NOSSA P2:
+
+Criação de um site de venda de roupas infantis de menina.
+
+Objetivo:
+Criar um site de venda de roupas infantis de menina que seja fácil de manter e permita adicionar novas peças de roupa com tamanho, descrição e valor usando HTML, CSS e JavaScript.
+
+Requisitos:
+
+	1.	Estrutura HTML:
+	•	Crie um arquivo index.html.
+	•	Inclua um formulário para adicionar novas roupas com os seguintes campos:
+	•	Nome da Roupa
+	•	Tamanho
+	•	Descrição
+	•	Preço
+	•	Inclua uma seção para listar as roupas disponíveis.
+ 
+	2.	Estilo CSS:
+	•	Crie um arquivo styles.css.
+	•	Adicione estilos para o layout do site, tornando-o visualmente agradável e responsivo.
+	•	Estilize o formulário e a lista de roupas.
+ 
+	3.	Funcionalidades JavaScript:
+	•	Crie um arquivo script.js.
+	•	Adicione a funcionalidade para que, ao enviar o formulário, novas roupas sejam adicionadas dinamicamente à lista de roupas disponíveis.
+	•	Garanta que o formulário seja resetado após o envio.
+
+Dicas:
+
+	•	Utilize flexbox para organizar o layout das seções.
+	•	Garanta que o site tenha uma navegação intuitiva e que as roupas sejam exibidas de forma organizada.
+	•	Teste a funcionalidade de adicionar novas roupas várias vezes para garantir que está funcionando corretamente.
+
+Entrega:
+
+	•	O projeto deve ser entregue em uma pasta contendo os três arquivos: index.html, styles.css e script.js.
+	•	Certifique-se de que todos os arquivos estejam funcionando corretamente juntos antes da entrega.
+
+Exemplo de Estrutura do Projeto:
+
+meu-projeto/
+│
+├── index.html
+├── styles.css
+└── script.js
+
+Critérios de Avaliação:
+
+	•	Correção e funcionalidade do código.
+	•	Organização e clareza do código.
+	•	Estética e usabilidade do site. (MAIOR PONTUAÇÃO AQUI HEIN GALERA!)
+	•	Documentação e comentários no código (opcional, mas recomendado).
+
+ OBSERVAÇÃO IMPORTANTE: IA NORMALMENTE TEM UM PADRÃO DE GERAÇÃO DE CONTEÚDO, ENTÃO EVITEM SUPRESAS EM SUAS NOTAS E CRIEM ALGO ÚNICO. 
+ NÃO UTILIZEM IA COMO MULETA E SIM COMO FERRAMENTA!
+
+Boa sorte! Qualquer dúvida, estou à disposição para ajudar.
+
