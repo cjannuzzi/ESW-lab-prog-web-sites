@@ -1,0 +1,45 @@
+Título do Exercício: Criação de um Formulário com Validação em JavaScript
+
+Descrição:
+
+Desenvolva uma página web que contenha um formulário de cadastro utilizando HTML, CSS e JavaScript. O objetivo deste exercício é praticar a validação de formulários no lado do cliente, manipulação do DOM e uso de expressões regulares em JavaScript.
+
+Requisitos:
+
+1. Estrutura HTML:
+   - Crie um formulário que contenha os seguintes campos:
+     - Nome completo (texto)
+     - E-mail (texto)
+     - Senha (password)
+     - Confirmação de senha (password)
+     - Data de nascimento (date)
+     - Gênero (radio buttons)
+     - Termos e Condições (checkbox)
+     - Botão de submissão
+
+2. Estilização CSS:
+   - Utilize um arquivo CSS externo para estilizar o formulário.
+   - O design deve ser limpo e organizado.
+   - A aplicação deve ser responsiva.
+
+3. Funcionalidades JavaScript:
+   - Valide os campos do formulário antes do envio:
+     - Nome completo: mínimo de 5 caracteres.
+     - E-mail: formato válido (ex: usuario@dominio.com).
+     - Senha: mínimo de 6 caracteres, contendo pelo menos uma letra e um número.
+     - Confirmação de senha: deve corresponder à senha.
+     - Data de nascimento: o usuário deve ser maior de 18 anos.
+     - Gênero: um deve ser selecionado.
+     - Termos e Condições: deve ser marcado.
+   - Exiba mensagens de erro específicas abaixo de cada campo inválido.
+   - Impedir o envio do formulário se houver erros de validação.
+   - Ao submeter com sucesso, exiba uma mensagem de agradecimento.
+
+4. Código Comentado:
+   - Adicione comentários no código HTML, CSS e JavaScript explicando o propósito das principais partes e trechos de código.
+
+5. Organização dos Arquivos:
+   - Organize os arquivos do projeto em pastas (por exemplo, `css`, `js`).
+   - Nomeie os arquivos de forma clara e consistente.
+
+
