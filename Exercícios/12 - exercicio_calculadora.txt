@@ -1,0 +1,33 @@
+Título do Exercício: Criação de uma Calculadora Simples
+
+Descrição:
+
+Desenvolva uma calculadora web simples utilizando HTML, CSS e JavaScript. O objetivo deste exercício é aplicar os conceitos de manipulação do DOM e eventos em JavaScript, além de práticas de estilização com CSS.
+
+Requisitos:
+
+1. Estrutura HTML:
+   - Crie uma interface de usuário que contenha:
+     - Um display para mostrar os números e resultados.
+     - Botões numerados de 0 a 9.
+     - Botões para as operações básicas: adição (+), subtração (-), multiplicação (*), divisão (/).
+     - Um botão para o igual (=) para calcular o resultado.
+     - Um botão para limpar (C) o display.
+
+2. Estilização CSS:
+   - Utilize um arquivo CSS externo para estilizar a calculadora.
+   - A interface deve ser visualmente agradável e organizada, com botões claramente identificáveis.
+   - A calculadora deve ser responsiva e funcionar em diferentes tamanhos de tela.
+
+3. Funcionalidades JavaScript:
+   - Ao clicar nos botões numéricos e de operação, os valores devem aparecer no display.
+   - Ao clicar no botão de igual, o resultado da operação deve ser calculado e exibido.
+   - O botão de limpar deve apagar o conteúdo do display.
+   - Implementar tratamento de erros básico (por exemplo, evitar operações inválidas como divisão por zero).
+
+4. Código Comentado:
+   - Adicione comentários no código HTML, CSS e JavaScript explicando o propósito das principais partes e trechos de código.
+
+5. Organização dos Arquivos:
+   - Organize os arquivos do projeto em pastas (por exemplo, `css`, `js`).
+   - Nomeie os arquivos de forma clara e consistente.
