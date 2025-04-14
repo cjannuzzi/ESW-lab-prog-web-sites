@@ -12,9 +12,9 @@ Neste exercício você deverá criar uma página web completa utilizando arquivo
 
 ## 🔖 Fórmula para calcular o IMC:
 
-\[
-IMC = \frac{peso}{altura^2}
-\]
+```
+IMC = peso / (altura * altura)
+```
 
 ## 🗒️ Classificação de IMC:
 
