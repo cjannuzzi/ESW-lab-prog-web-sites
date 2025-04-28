@@ -35,8 +35,8 @@ lista-tarefas/
 
 ## ✅ Requisitos adicionais:
 
-- O código deve estar claro, bem organizado e extensivamente comentado, explicando cada funcionalidade implementada.
+- O código deve estar claro e bem organizado!
 - Utilize estilos CSS básicos, porém atrativos, garantindo uma boa experiência visual ao usuário.
-- Todos os arquivos devem ser separados conforme indicado acima.
+- Todos os arquivos devem ser separados conforme indicado acima, e feito o deploy no Github Pages.
 
 Boa codificação! 🚀
