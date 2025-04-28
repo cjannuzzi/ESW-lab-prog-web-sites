@@ -33,7 +33,7 @@ lista-tarefas/
 
 ---
 
-## ✅ Importante:
+## 📢 Importante:
 
 - O código deve estar claro e bem organizado!
 - Utilize estilos CSS básicos, porém atrativos, garantindo uma boa experiência visual ao usuário.
